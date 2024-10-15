@@ -103,4 +103,5 @@ TECHNOLOGIES IMPLIMENTED:
 Goal of the Project:
 
 The main objective is to create a smooth and user-friendly sign-up experience, ensuring users can easily navigate through each step of the form, validate their inputs, and complete the account creation process without hassle.
-the creation of the project also as maximum simple way as possible but made it with reliable and effecient way.each buttons are provided with state with help of react the styled the page for users to be user friendly and user interface exactly as give by the company.
+the creation of the project also as maximum simple way as possible but made it with reliable and effecient way.each buttons are provided with state with help of react the styled the page for users to be user friendly and user interface exactly as give by the company.folders where structured and components where divided for each specific section of datas to be added.
+
