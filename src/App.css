@@ -1,0 +1,82 @@
+.form-container {
+  width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 400%; /* Adjust for the number of slides (4 slides) */
+}
+
+.slider-step-0 {
+  transform: translateX(0%);
+}
+
+.slider-step-1 {
+  transform: translateX(-25%);
+}
+
+.slider-step-2 {
+  transform: translateX(-50%);
+}
+
+.slider-step-3 {
+  transform: translateX(-75%);
+}
+
+.slide {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown select {
+  width: 48%;
+}
+
+/* Dot Navigation */
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #007bff;
+}
+
+.dot:hover {
+  background-color: #0056b3;
+}
